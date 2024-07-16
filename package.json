@@ -14,7 +14,7 @@
   "lint-staged": {
     "**.js": [
       "npx prettier --write",
-      "eslint"
+      "eslint . --ignore-pattern 'node_modules/**'"
     ]
   },
   "name": "t3",
